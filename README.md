@@ -58,6 +58,9 @@ To run the streamlit app, use the following command:
 To run the gradio app, use the following command:
 `python gradioaApp.py` 
 
+To run the api, use the following command:
+`python api.py` 
+
 This will launch the app in your web browser. You can enter a movie review in the text box and clicK ENTER to see the sentiment analysis results.
 **Since we are fetching the model directly from hugging Face, this apps rquire interner connection to work**
 # Contributing
