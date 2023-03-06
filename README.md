@@ -1,16 +1,17 @@
 # Azubi-Capstone-Project
 
 # Introduction 
-This repository contains a comprehensive projecct that analysed the movie reviews dataset on ZINDI and created 3 machine learning models to classify the reviews's sentiments. 3 Apps where then created to provide a user-friendly interface for non-technical users to easily interact with the models.The best performing model was then deployed using FastAPI for developers to incorporate the model into their own applications. Below is the details of each task.
+This repository contains a comprehensive projecct that analysed the movie reviews dataset on ZINDI and created 4 machine learning models to classify the reviews's sentiments. 3 Apps where then created to provide a user-friendly interface for non-technical users to easily interact with the models.The best performing model was then deployed using FastAPI for developers to incorporate the model into their own applications. Below is the details of each task.
 
 # Data Analysis and Model Creation
 
 The objective of this project is to analyse the Movie Review dataset available on ZINDI to develop a NLP machine learning model which when given a review sentence, classify whether the sentence is of positive, negative, or neutral sentiment. This objective was accomplished using the CRISP-DM methodology.
-3 Models where created using pre-trained models from the Hugging Face platform. These models are:
+4 Models where created using pre-trained models from the Hugging Face platform. These models are:
 
 - [x] Distilbert-Base-uncased: This is a smaller and faster version of the BERT model that has been trained on a smaller corpus of text. It is a good choice for sentiment analysis when speed is a concern.
 - [x] XLNet-Base-cased: This is a pre-trained model that is based on a different type of neural network architecture called a transformer-XL. It has been shown to perform well on a variety of natural language processing tasks, including sentiment analysis.
-- [x] GPT-2 (Generative Pre-trained Transformer 2) is a state-of-the-art natural language processing model developed by OpenAI. Since GPT-2 is specifically designed for wide range of tasks, it can be used for text classification tasks, including sentiment analysis. 
+- [x] Roberta-Base-uncased: This is a variant of the Bert model that is pre-trained on a massive amount of text data, including BooksCorpus (800 million words) and the English Wikipedia (2.5 billion words), using a modified version of the BERT pre-training procedure.
+- [x] Cardiffnlp Roberta-Base-uncased: CardiffNLP's Twitter RoBERTa Base model is a pre-trained language model for sentiment analysis on Twitter data. It is based on the RoBERTa architecture.The model has also been fine-tuned on several sentiment analysis tasks to improve its performance on Twitter sentiment analysis.
 
 **The project notebook Movie_Review_Sentiment.ipynb in this repository contains detailed explanations and code for this project** 
 This file was created using GOOGLE colab notebook.
